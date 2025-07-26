@@ -303,7 +303,7 @@ window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
   const main = document.querySelector(".main-section");
 
-  const MIN_LOADING_TIME = 3000; // 최소 로딩 시간 (ms)
+  const MIN_LOADING_TIME = 1500; // 최소 로딩 시간 (ms)
   const elapsed = Date.now() - window._loaderStartTime;
   const delay = Math.max(0, MIN_LOADING_TIME - elapsed);
 
